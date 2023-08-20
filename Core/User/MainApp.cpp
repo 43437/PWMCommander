@@ -33,7 +33,7 @@ void MainApp::Init(){
 	auto ret = DrvESP8266::Instance().Init();
 	SEGGER_RTT_printf(0, "init: %d", ret);
 
-//	DrvPCA9685::Instance();
+	DrvPCA9685::Instance();
 	//driver init end
 
 	//procedure init
